@@ -4,6 +4,7 @@ void count_sort(int ,int ,int );
 int getmax(int *a,int n)
 {
     int max=0;
+    int min=0;
     for(int i=0;i<n;i++)
     {
         if(max<a[i])
